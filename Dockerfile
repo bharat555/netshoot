@@ -46,14 +46,9 @@ RUN set -ex \
     netcat-openbsd \
     nftables \
     ngrep \
-    nmap \
-    nmap-nping \
     openssl \
     py3-pip \
     py3-setuptools \
-    scapy \
-    socat \
-    speedtest-cli \
     strace \
     tcpdump \
     tcptraceroute \
@@ -61,9 +56,7 @@ RUN set -ex \
     util-linux \
     vim \
     git \
-    zsh \
-    websocat \
-    swaks
+    zsh
 
 # Installing httpie ( https://httpie.io/docs#installation)
 RUN pip3 install --upgrade httpie
